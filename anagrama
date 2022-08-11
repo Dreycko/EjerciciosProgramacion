@@ -1,0 +1,14 @@
+'''
+Un anagrama implica la generación de dos o más palabras diferentes por el solo hecho de cambiar de posición sus letras. 
+El término, de origen griego, 
+proviene de anna, que indica movimiento, y gramma, que quiere decir “letra”. 
+Por ejemplo: Sergio – riesgo.
+'''
+
+primera = "".join(sorted(input("Primera Palabra: ")))
+segunda = "".join(sorted(input("Segunda Palabra: ")))
+
+if primera == segunda:
+    print("Es un Anagrama")
+else:
+    print("No es Un anagrama")
